@@ -5,10 +5,11 @@
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
-            submit.vtbs.moe
+            这里是submit.vtbs.moe，v萌虚拟主播数据中心x
+            您可以在这里
           </h1>
           <h2 class="subtitle">
-            你好呀
+            你好呀！请等待网页加载完毕后往下翻进行操作~
           </h2>
         </div>
       </div>
@@ -18,7 +19,7 @@
             <ul>
               <router-link tag="li" to="/" class="link"><a class="aLink">Panel</a></router-link>
               <router-link tag="li" to="/edit" class="link"><a class="aLink">新建</a></router-link>
-              <router-link tag="li" to="/submit" class="link"><a class="aLink">提交!({{diff.length}})</a></router-link>
+              <router-link tag="li" to="/submit" class="link"><a class="aLink">点这里提交才能生效!({{diff.length}})</a></router-link>
               <router-link tag="li" to="/workspace" class="link"><a class="aLink">工作区存档({{workspaceList.length}})</a></router-link>
               <router-link tag="li" to="/login" class="link"><a class="aLink">登录{{currentState}}</a></router-link>
             </ul>
@@ -108,3 +109,5 @@ export default {
   border: 0;
 }
 </style>
+
+阿西吧让他去还没改完先放这里吧 懒）
